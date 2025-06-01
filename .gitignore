@@ -5,3 +5,4 @@ env/
 
 # Ignorer les fichier de Jupyter
 .ipynb_checkpoints/
+test.csv
