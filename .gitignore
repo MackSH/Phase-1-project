@@ -1,8 +1,7 @@
-# Ignorer l'environnement virtuel
 venv/
 .env/
 env/
-
-# Ignorer les fichier de Jupyter
 .ipynb_checkpoints/
 test.csv
+location.py
+__pycache__/
