@@ -17,7 +17,7 @@ Cette analyse permettra à l’entreprise de limiter les risques humains, financ
 
 ## Contenu du projet
 - `notebooks` : Notebooks Jupyter aveec l'analyse complète
-- `data` : Données brutes [AviationData.csv](https://raw.githubusercontent.com/MackSH/Phase-1-project/refs/heads/main/AviationData.csv), [USState_Codes.csv](https://raw.githubusercontent.com/MackSH/Phase-1-project/refs/heads/main/USState_Codes.csv)
+- `data` : Données brutes [AviationData.csv](https://raw.githubusercontent.com/MackSH/aircraft_accident_analysis/refs/heads/main/AviationData.csv), [USState_Codes.csv](https://raw.githubusercontent.com/MackSH/aircraft_accident_analysis/refs/heads/main/USState_Codes.csv)
 - `README.md` : Ce fichier
 - `requirements.txt` : Librairies à installer pour reproduire le projet
 
@@ -25,7 +25,7 @@ Cette analyse permettra à l’entreprise de limiter les risques humains, financ
 ```bash
 
 # Clone le repo
-git clone https://github.com/MackSH/Phase-1-project.git
+git clone https://github.com/MackSH/aircraft_accident_analysis.git
 cd Phase 1 project
 
 # Crée un environnement virtuel (optionnel mais pro)
