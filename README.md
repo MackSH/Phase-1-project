@@ -35,3 +35,43 @@ source env/bin/activate   ou env\Scripts\activate sous Windows
 # Installe les packages
 pip install -r requirements.txt
 ```
+
+## Analyses
+
+![Taux d'accident mortels par modèle](graphes/taux_accidents_mortels_par_modele.png)
+
+Graphique affichant le taux d'accidents mortels par modèle
+<br><br><br>
+
+![Taux d'accident mortels par type de moteur](graphes/taux_accidents_mortels_par_type_moteur.png)
+
+Graphique affichant le taux d'accidents mortels par modèle
+<br><br><br>
+
+![Evolution de la fréquence d'accident au fil des annees](graphes/frequences_acci_annee.png)
+<br><br><br>
+
+## Mes recommandation
+
+### Résumé des principales observations
+- Les moteurs Reciprocating et Turbo Shaft affichent les taux de mortalité les plus faibles.
+- Certains modèles d’avions comme le 152 et le 172 du constructeur Cessna ont une gravité d’accidents très basse, même avec un nombres d’incidents relativement élevé – Preuve de robustesse.
+- Les constructeur Cesnna, Piper montrent un historique d’accidents maîtrisé avec une tendance à la baisse ces 10 dernières années.
+
+
+### Recommandations stratégiques
+1. Privilégier les modèles à moteur Reciprocating
+    - Ce sont les moteurs qui présentent les meilleurs scores de sécurité sur le long terme.
+    - Idéal pour les petits trajets régionaux.
+    <br>
+
+2. Éviter (ou surveiller) les modèles avec moteurs Turbo Fan dans une première phase
+    - Ce type de moteur présente une gravité d'accident très élevée.
+    Il est plus courant sur les gros porteurs.
+    - À réserver pour une phase d'expansion, avec un budget sécurité + formation conséquent.
+    <br>
+
+3. Choisir des modèles ayant un historique d’usage dans des contextes similaires
+    -  Rechercher des modèles utilisés dans des régions ou segments similaires pour minimiser les incertitudes.
+
+
